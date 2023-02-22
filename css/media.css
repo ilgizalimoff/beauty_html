@@ -1,0 +1,57 @@
+@media(max-width: 530px) {
+    .header__top a {
+        margin: 0 5px;
+        font-size: 10px;
+    }
+
+    .header__main-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .tel__wrapper {
+        justify-content: center;
+    }
+
+    .tel__number {
+        font-size: 13px;
+    }
+
+    .tel__button {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .icon {
+        margin: auto;
+        padding-top: 5px;
+
+    }
+}
+
+@media(max-width: 300px) {
+    .header__top a {
+        margin: 0 3px;
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 780px) {
+    .icon {
+        width: 190px;
+    }
+
+    .icon :nth-child(1) {
+        width: 60px;
+    }
+
+    .icon :nth-child(2) {
+        width: 120px;
+    }
+
+
+    .tel__button {
+        margin-left: 10px;
+    }
+}
